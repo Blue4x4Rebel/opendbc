@@ -35,9 +35,6 @@ BS_:
 
 BU_: XXX
 
-
-BO_ 1940 NEW_MSG_1: 8 XXX
-
 BO_ 1549 BODY_ECM: 8 XXX
  SG_ ?Headlights : 1|1@0+ (1,0) [0|1] "" XXX
  SG_ ?Running Lights : 2|1@0+ (1,0) [0|1] "" XXX
