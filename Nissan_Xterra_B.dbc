@@ -38,4 +38,23 @@ BU_: XXX
 
 BO_ 1940 NEW_MSG_1: 8 XXX
 
-BO_ 1549 NEW_MSG_2: 8 XXX
+BO_ 1549 BODY_ECM: 8 XXX
+ SG_ ?Headlights : 1|1@0+ (1,0) [0|1] "" XXX
+ SG_ ?Running Lights : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ ?Driver Door : 4|1@0+ (1,0) [0|1] "" XXX
+ SG_ ?Passenger Door : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ ?Rear-left? : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ ?Rear-right : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ ?ACC/IGN : 10|2@0+ (1,0) [0|1] "" XXX
+ SG_ ?Left Turn : 13|1@0+ (1,0) [0|1] "" XXX
+ SG_ ?Right Turn : 14|1@0+ (1,0) [0|1] "" XXX
+
+CM_ SG_ 1549 ?Headlights "Might be headlight indicator (1 - on/0 - off)";
+CM_ SG_ 1549 ?Running Lights "Might be running lights?";
+CM_ SG_ 1549 ?Driver Door "Driver-side front door?";
+CM_ SG_ 1549 ?Passenger Door "Might be passenger door?";
+CM_ SG_ 1549 ?Rear-left? "Inspect for another door code.";
+CM_ SG_ 1549 ?Rear-right "Inspect for another door code";
+CM_ SG_ 1549 ?ACC/IGN "ACC/Ignition status?";
+CM_ SG_ 1549 ?Left Turn "Left-turn signal?";
+CM_ SG_ 1549 ?Right Turn "Right-turn signal?";
