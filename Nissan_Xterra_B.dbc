@@ -33,8 +33,9 @@ NS_ :
 
 BS_:
 
-BU_: XXX 
+BU_: XXX
 
 
 BO_ 1940 NEW_MSG_1: 8 XXX
- SG_ L : NaN|NaN@0+ (3,NaN) [1|NaN] "0" ,
+
+BO_ 1549 NEW_MSG_2: 8 XXX
