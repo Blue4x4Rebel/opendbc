@@ -43,4 +43,4 @@ BO_ 1549 Body_ECM: 8 BCM
  SG_ Passenger_Door_ : 5|1@0+ (1,0) [0|1] "" XXX
  SG_ ACC_IGN_ : 10|2@0+ (1,0) [0|1] "" XXX
  SG_ Left_Turn : 13|1@0+ (1,0) [0|1] "" XXX
- SG_ Right_Turn_ : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ Right_Turn : 14|1@0+ (1,0) [0|1] "" XXX
