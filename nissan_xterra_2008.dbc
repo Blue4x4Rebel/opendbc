@@ -44,3 +44,22 @@ BO_ 1549 Body_ECM: 8 BCM
  SG_ ACC_IGN_ : 10|2@0+ (1,0) [0|1] "" XXX
  SG_ Left_Turn : 13|1@0+ (1,0) [0|1] "" XXX
  SG_ Right_Turn : 14|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 901 TPMS_: 7 XXX
+ SG_ TP1_VALID_ : 55|1@0+ (1,0) [0|1] "t/f" XXX
+ SG_ Tire1 : 16|8@1+ (1,0) [0|255] "PSI" XXX
+ SG_ Tire2 : 24|8@1+ (1,0) [0|255] "PSI" XXX
+ SG_ TP2_VALID_ : 54|1@0+ (1,0) [0|1] "t/f" XXX
+ SG_ TP3_VALID_ : 53|1@0+ (1,0) [0|1] "t/f" XXX
+ SG_ TP4_VALID_ : 52|1@0+ (1,0) [0|1] "t/f" XXX
+ SG_ Tire3 : 32|8@1+ (1,0) [0|255] "PSI" XXX
+ SG_ Tire4 : 40|8@1+ (1,0) [0|255] "PSI" XXX
+
+
+
+
+CM_ SG_ 901 TP1_VALID_ "Is TP1 Valid?";
+CM_ SG_ 901 Tire1 "divide by 4";
+CM_ SG_ 901 Tire2 "Tire 2 / 4";
+CM_ SG_ 901 Tire3 "divide by 4";
+CM_ SG_ 901 Tire4 "divide by 4";
